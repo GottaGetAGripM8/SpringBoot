@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:wicket="http://wicket.apache.org">
+<head>
+</head>
+<body>
+
+	<div class="container">
+		
+		<div class="row">
+			<form wicket:id="formInsert" class="form-group">
+				<div>
+
+
+					<span wicket:id="nameStudentLabel" class="form-control">[nameStudentLabel]</span>
+					<input wicket:id="name" type="text" class="form-control"></input> 
+					<span wicket:id="meatLabel" class="form-control">[meatLabel]</span>
+					<input wicket:id="type" type="text" class="form-control"></input>
+					<span wicket:id="orangeLabel" class="form-control">[orangeLabel]</span>
+					<input wicket:id="orange" type="text" class="form-control"></input>
+					
+					<input type="submit" class="btn btn-primary">
+
+				</div>
+			</form>
+			
+			<div class="alert-info" wicket:id="feedbackMessage">[feedbackMessage]</div>
+			
+		</div>
+	</div>
+</body>
+</html>
